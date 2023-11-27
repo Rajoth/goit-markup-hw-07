@@ -176,7 +176,7 @@ body {
 footer {
   background-color: var(--brand-color-navyblue);
 }
-footer > p {
+.last-section-text {
   color: var(--brand-color-cloud);
   font-family: Roboto;
   font-size: 16px;
