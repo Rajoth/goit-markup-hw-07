@@ -27,6 +27,22 @@ body {
   text-decoration: none;
 }
 
+.link-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0, 02em;
+  color: var(--brand-color-slate);
+}
+
+.link-list:hover {
+  color: var(--brand-color-ocean);
+}
+
+.link-list:active {
+  color: var(--brand-color-ocean);
+}
+
 .header-logo {
   color: var(--brand-color-navyblue);
 }
@@ -35,7 +51,8 @@ body {
   color: var(--brand-color-cloud);
 }
 
-.header-menu {
+.list {
+  list-style-type: none;
   color: var(--brand-color-navyblue);
   font-family: Roboto;
   font-size: 16px;
@@ -43,7 +60,6 @@ body {
   font-weight: 500;
   letter-spacing: 0.32px;
   text-decoration: none;
-  list-style-type: none;
 }
 
 .list-values,
@@ -56,30 +72,34 @@ body {
 
 .menu-item {
   color: var(--brand-color-navyblue);
-  text-decoration: none;
 }
 .menu-item:hover {
   color: var(--brand-color-ocean);
 }
 
 .contact-details {
+  font-style: normal;
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 400;
   letter-spacing: 0.32px;
   list-style-type: none;
 }
 
-.contact-item-mail,
-.contact-item-tel {
-  text-decoration: none;
+.contact-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0,02em;
   color: var(--brand-color-slate);
 }
 
-.contact-item-mail:hover {
+.contact-item:hover {
   color: var(--brand-color-ocean);
-}
+  }
+  .contact-item:focus {
+    color: var(--brand-color-ocean);
+  }
 .header-block {
   background-color: var(--brand-color-navyblue);
 }
