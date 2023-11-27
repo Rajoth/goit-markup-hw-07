@@ -39,7 +39,7 @@ body {
   color: var(--brand-color-ocean);
 }
 
-.link-list:active {
+.link-list:focus {
   color: var(--brand-color-ocean);
 }
 
@@ -70,13 +70,6 @@ body {
   list-style-type: none;
 }
 
-.menu-item {
-  color: var(--brand-color-navyblue);
-}
-.menu-item:hover {
-  color: var(--brand-color-ocean);
-}
-
 .contact-details {
   font-style: normal;
   font-family: Roboto;
@@ -90,16 +83,16 @@ body {
 .contact-item {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0,02em;
+  letter-spacing: 0, 02em;
   color: var(--brand-color-slate);
 }
 
 .contact-item:hover {
   color: var(--brand-color-ocean);
-  }
-  .contact-item:focus {
-    color: var(--brand-color-ocean);
-  }
+}
+.contact-item:focus {
+  color: var(--brand-color-ocean);
+}
 .header-block {
   background-color: var(--brand-color-navyblue);
 }
