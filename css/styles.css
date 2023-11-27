@@ -188,14 +188,20 @@ footer {
 
 .btn-filter {
   background: var(--brand-color-cloud);
-  color: var(--brand-color-iris);
-  font-size: 16px;
-  font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.64px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-iris);
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
 .btn-filter:hover {
   color: var(--brand-color-white);
   background-color: var(--brand-color-ocean);
+}
+
+.btn-filter:focus {
+  color: var(--brand-color-white);
 }
