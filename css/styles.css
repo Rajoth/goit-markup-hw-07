@@ -75,16 +75,16 @@ body {
   font-family: Roboto;
   font-size: 16px;
 
-  font-weight: 400;
   letter-spacing: 0.32px;
   list-style-type: none;
 }
 
 .contact-item {
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0, 02em;
-  color: var(--brand-color-slate);
+  color: var(--brand-color-navyblue);
 }
 
 .contact-item:hover {
