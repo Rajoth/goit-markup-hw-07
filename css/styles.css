@@ -183,6 +183,7 @@ footer > p {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.32px;
+  line-height: 1.5;
 }
 
 .btn-filter {
