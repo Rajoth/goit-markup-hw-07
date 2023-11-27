@@ -150,15 +150,27 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.32px;
+  line-height: 1.5;
+}
+.team {
+  background-color: var(--brand-color-cloud);
+}
+
+.team-item {
+  background-color: var(--brand-color-white);
 }
 .title-section {
-  font-family: Roboto;
-  color: var(--brand-color-navyblue);
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--brand-color-navyblue);
+
+  font-family: Roboto;
+
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 0.72px;
-  text-transform: capitalize;
 }
 
 footer {
