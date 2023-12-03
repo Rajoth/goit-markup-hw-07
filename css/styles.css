@@ -130,7 +130,7 @@ body {
   color: var(--brand-color-white);
 }
 
-.btn-order:focus {
+.btn-order:active {
   color: var(--brand-color-ocean);
 }
 .title-article {
