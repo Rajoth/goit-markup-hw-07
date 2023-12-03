@@ -71,6 +71,10 @@ body {
   list-style-type: none;
 }
 
+.address-section {
+  font-style: normal;
+}
+
 .contact-details {
   font-style: normal;
   font-family: Roboto;
