@@ -131,11 +131,9 @@ body {
 }
 
 .btn-order:focus {
-  color: var(--brand-color-ocean);
+  background-color: var(--brand-color-ocean);
 }
-.btn-order:active {
-  color: var(--brand-color-ocean);
-}
+
 .title-article {
   font-weight: 500;
   font-size: 20px;
