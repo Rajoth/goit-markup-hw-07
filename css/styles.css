@@ -66,8 +66,7 @@ body {
 .list,
 .list-section,
 .section-team,
-.btn-list,
-.project-cards {
+.btn-list {
   list-style-type: none;
 }
 
@@ -92,9 +91,7 @@ body {
   color: var(--brand-color-slate);
 }
 
-.contact-item:hover {
-  color: var(--brand-color-ocean);
-}
+.contact-item:hover,
 .contact-item:focus {
   color: var(--brand-color-ocean);
 }
@@ -154,7 +151,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   line-height: 1.5;
 }
 .team {
@@ -202,11 +199,8 @@ footer {
   cursor: pointer;
 }
 
-.btn-filter:hover {
-  color: var(--brand-color-white);
-  background-color: var(--brand-color-ocean);
-}
-
+.btn-filter:hover,
 .btn-filter:focus {
   color: var(--brand-color-white);
+  background-color: var(--brand-color-ocean);
 }
