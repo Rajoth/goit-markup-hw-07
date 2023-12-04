@@ -186,6 +186,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--brand-color-iris);
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 .btn-filter:hover,
