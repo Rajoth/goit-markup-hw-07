@@ -20,7 +20,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-iris);
-  font-style: normal;
 }
 
 .link {
@@ -28,7 +27,6 @@ body {
 }
 
 .link-list {
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brand-color-navyblue);
@@ -51,8 +49,7 @@ body {
 .list {
   list-style-type: none;
   color: var(--brand-color-navyblue);
-  font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
   letter-spacing: 0.32px;
   text-decoration: none;
@@ -65,20 +62,14 @@ body {
   list-style-type: none;
 }
 
-.address-section {
-  font-style: normal;
-}
-
 .contact-details {
   font-style: normal;
-  font-size: 16px;
 
   letter-spacing: 0.32px;
   list-style-type: none;
 }
 
 .contact-item {
-  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0, 02em;
@@ -99,7 +90,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--brand-color-white);
 
-  font-style: normal;
   font-weight: 700;
 }
 
@@ -107,7 +97,7 @@ body {
   background: var(--brand-color-iris);
   font-family: inherit;
   font-weight: 500;
-  font-size: 16px;
+
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--brand-color-white);
@@ -116,8 +106,6 @@ body {
   border: 4px solid;
   border-color: var(--brand-color-navyblue);
   text-align: center;
-
-  font-style: normal;
 }
 
 .btn-order:hover {
@@ -135,13 +123,11 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color-navyblue);
-  font-style: normal;
 }
 
 .article {
   color: var(--brand-color-slate);
-  font-size: 16px;
-  font-style: normal;
+
   font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 1.5;
@@ -161,7 +147,6 @@ body {
   text-transform: capitalize;
   color: var(--brand-color-navyblue);
 
-  font-style: normal;
   font-weight: 700;
 }
 
@@ -171,9 +156,7 @@ body {
 
 .last-section-text {
   color: var(--brand-color-cloud);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
+
   letter-spacing: 0.32px;
   line-height: 1.5;
 }
@@ -181,7 +164,7 @@ body {
 .btn-filter {
   background: var(--brand-color-cloud);
   font-weight: 500;
-  font-size: 16px;
+
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--brand-color-iris);
