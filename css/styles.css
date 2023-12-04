@@ -170,6 +170,10 @@ body {
   font-weight: 700;
 }
 
+.last-section {
+  background-color: var(--brand-color-navyblue);
+}
+
 .last-section-text {
   color: var(--brand-color-cloud);
   font-family: "Roboto", sans-serif;
