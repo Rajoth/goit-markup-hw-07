@@ -62,6 +62,9 @@ body {
   list-style-type: none;
 }
 
+.address-section {
+  font-style: normal;
+}
 .contact-details {
   font-style: normal;
 
@@ -97,7 +100,7 @@ body {
   background: var(--brand-color-iris);
   font-family: inherit;
   font-weight: 500;
-
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--brand-color-white);
