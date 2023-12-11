@@ -12,7 +12,7 @@ body {
   background-color: #fff;
 }
 
-* {
+* ::before ::after {
   margin: 0;
   padding: 0;
 }
