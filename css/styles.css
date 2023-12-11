@@ -88,8 +88,7 @@ body {
   color: var(--brand-color-ocean);
 }
 .block-with-button {
-  width: 1440px;
-  height: 600px;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,7 +137,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brand-color-navyblue);
-  height: 24px;
+  
 }
 
 .article {
@@ -149,8 +148,7 @@ body {
 }
 .team {
   background-color: var(--brand-color-cloud);
-  width: 1440px;
-  height: 732px;
+  
 }
 
 .team-item {
@@ -178,8 +176,6 @@ body {
 
 .last-section {
   background-color: var(--brand-color-navyblue);
-  width: 1440px;
-  height: 312px;
   margin-top: 0;
 }
 
@@ -187,7 +183,7 @@ body {
   color: var(--brand-color-cloud);
   letter-spacing: 0.32px;
   line-height: 1.5;
-  width: 264px;
+ S
 }
 
 .btn-filter {
@@ -209,11 +205,12 @@ body {
 
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .container-header {
-  width: 1440px;
-  height: 72px;
+ 
   display: flex;
 
   align-items: baseline;
@@ -231,8 +228,7 @@ body {
   gap: 40px;
 }
 .container-footer {
-  width: 264px;
-  height: 112px;
+  
   margin: 100px 1020px 100px 156px;
 }
 
@@ -257,7 +253,7 @@ body {
   justify-content: center;
 }
 .section-features {
-  width: 1440px;
+
   display: flex;
   margin-top: 128px;
   display: flex;
@@ -277,8 +273,7 @@ body {
   height: 104px;
 }
 .section-images {
-  width: 1128px;
-  height: 412px;
+  
   margin: 120px 156px;
   display: inline-flex;
   flex-direction: column;
@@ -304,8 +299,7 @@ body {
 }
 
 .section-team-block {
-  width: 1440px;
-  height: 732px;
+ 
 }
 
 .title-section-team {
@@ -334,11 +328,9 @@ body {
 }
 
 .container-btns-filter {
-  width: 586px;
-  height: 48px;
+  
   display: inline-flex;
-  align-items: flex-start;
-  gap: 24px;
+    gap: 24px;
 }
 .parent-container-btns-filter {
   display: flex;
@@ -348,8 +340,7 @@ body {
 }
 
 .filter-button-all {
-  width: 24px;
-  height: 21px;
+
   padding: 12px 24px;
   border-radius: 4px;
   margin-right: 24px;
@@ -358,8 +349,7 @@ body {
 }
 
 .filter-button-website {
-  width: 68px;
-  height: 24px;
+  
   padding: 12px 24px;
   border: 1px;
   border-radius: 4px;
@@ -371,8 +361,7 @@ body {
 }
 
 .filter-buttton-app {
-  width: 30px;
-  height: 24px;
+ 
   padding: 12px 24px;
   border: 1px;
   border-radius: 4px;
@@ -384,8 +373,7 @@ body {
 }
 
 .filter-button-design {
-  width: 53px;
-  height: 24px;
+  
   border: 1px;
   padding: 12px 24px;
   margin-left: 24px;
@@ -397,8 +385,7 @@ body {
 }
 
 .filter-button-makreting {
-  width: 78px;
-  height: 24px;
+
   border: 1px;
   padding: 12px 24px;
   border-radius: 4px;
@@ -408,28 +395,15 @@ body {
   margin-left: 24px;
 }
 
-.img-first-row {
+.grid {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 24px;
-}
-
-.img-second-row {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.img-third-row {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+  width: 1440px;
 }
 
 .project-card {
   display: flex;
-  width: 360px;
-  height: 420px;
   padding-bottom: 32px;
   flex-direction: column;
   align-items: flex-start;
@@ -437,8 +411,7 @@ body {
 }
 
 .container-boxname-card {
-  height: 56px;
-  width: 328px;
+ 
   display: flex;
   padding: 0px 16px;
   flex-direction: column;
