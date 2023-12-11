@@ -395,12 +395,13 @@ body {
   margin-left: 24px;
 }
 
-.grid {
+.grid-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
   width: 1440px;
 }
+
 
 .project-card {
   display: flex;
