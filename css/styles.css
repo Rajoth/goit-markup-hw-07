@@ -19,7 +19,6 @@ body {
 
 img {
   display: block;
-
 }
 
 .logo {
@@ -44,7 +43,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--brand-color-navyblue);
   font-weight: 500;
-
 }
 
 .link-list:hover,
@@ -63,7 +61,6 @@ img {
 .list {
   list-style-type: none;
   color: var(--brand-color-navyblue);
-
   font-weight: 500;
   letter-spacing: 0.32px;
   text-decoration: none;
@@ -98,23 +95,20 @@ img {
   color: var(--brand-color-ocean);
 }
 .block-with-button {
-
   padding: 188px 0;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--brand-color-navyblue);
 }
+
 .text-block {
   max-width: 496px;
-
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--brand-color-white);
-
   font-weight: 700;
   display: flex;
   align-self: center;
@@ -137,7 +131,6 @@ img {
   color: var(--brand-color-white);
   padding: 16px 32px;
   margin-top: 48px;
-  
 }
 
 .btn-order:hover {
@@ -157,7 +150,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--brand-color-navyblue);
   margin-bottom: 8px;
-  
 }
 
 .article {
@@ -168,12 +160,10 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
+
 .section-team {
   padding: 120px 0;
   background-color: var(--brand-color-cloud);
-  }
-
-
 }
 
 .photo-team {
@@ -181,7 +171,7 @@ img {
 }
 
 .team-item {
-  width: calc((100%-72px)/4;
+  width: calc((100%-72px) / 4);
   border-radius: 0px 4px 4px 0px;
   background-color: var(--brand-color-white);
   display: block;
@@ -190,12 +180,13 @@ img {
   align-items: center;
   gap: 32px;
   padding-bottom: 32px;
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
 .title-section {
-  margin-bottom: 72px ;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -206,17 +197,14 @@ img {
 }
 
 .last-section {
-background-color: var(--brand-color-navyblue);
-padding: 100px 0;
-
-
+  background-color: var(--brand-color-navyblue);
+  padding: 100px 0;
 }
 
 .last-section-text {
   color: var(--brand-color-cloud);
   letter-spacing: 0.32px;
   line-height: 1.5;
- S
 }
 
 .btn-filter {
@@ -240,53 +228,34 @@ padding: 100px 0;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
- 
 }
 
 .main-container-header {
-
   border-bottom: 1px solid #e7e9fc;
-
-  
-
 }
 
 .container-header {
-
-    
 }
 
 .nav-menu {
-
-
-
 }
 .main-menu {
- 
-  
 }
 .container-footer {
-  
   margin: 100px 1020px 100px 156px;
 }
 
 .container-header-logo {
-
-margin-right: 76px;
-;
-
+  margin-right: 76px;
 }
-
 
 .container-text-block {
   display: flex;
   justify-content: center;
 }
 .section-features {
-  padding:120px 0;
-
+  padding: 120px 0;
 }
-
 
 .features-list {
   gap: 24px;
@@ -294,14 +263,10 @@ margin-right: 76px;
   justify-content: flex-start;
 }
 .box-feature {
-  width: calc((100%-72px)/4);
-  
-  
+  width: calc((100%-72px) / 4);
 }
 .section-images {
-
   padding-bottom: 120px;
-  
 }
 
 .title-section-images {
@@ -318,11 +283,10 @@ margin-right: 76px;
 .container-images-list {
   display: flex;
   gap: 24px;
-   }
+}
 
-  .box-image {
-  width: calc((100%-48px)/3;
-   
+.box-image {
+  width: calc((100%-48px) / 3);
 }
 
 .container-photos-team {
@@ -345,9 +309,8 @@ margin-right: 76px;
 }
 
 .container-btns-filter {
-  
   display: inline-flex;
-    gap: 24px;
+  gap: 24px;
 }
 .parent-container-btns-filter {
   display: flex;
@@ -357,7 +320,6 @@ margin-right: 76px;
 }
 
 .filter-button-all {
-
   padding: 12px 24px;
   border-radius: 4px;
   margin-right: 24px;
@@ -366,7 +328,6 @@ margin-right: 76px;
 }
 
 .filter-button-website {
-  
   padding: 12px 24px;
   border: 1px;
   border-radius: 4px;
@@ -378,7 +339,6 @@ margin-right: 76px;
 }
 
 .filter-buttton-app {
- 
   padding: 12px 24px;
   border: 1px;
   border-radius: 4px;
@@ -390,7 +350,6 @@ margin-right: 76px;
 }
 
 .filter-button-design {
-  
   border: 1px;
   padding: 12px 24px;
   margin-left: 24px;
@@ -402,7 +361,6 @@ margin-right: 76px;
 }
 
 .filter-button-makreting {
-
   border: 1px;
   padding: 12px 24px;
   border-radius: 4px;
@@ -419,7 +377,6 @@ margin-right: 76px;
   width: 1440px;
 }
 
-
 .project-card {
   display: flex;
   padding-bottom: 32px;
@@ -429,8 +386,5 @@ margin-right: 76px;
 }
 
 .container-boxname {
-
- padding: 32px 0;
-
+  padding: 32px 0;
 }
-
