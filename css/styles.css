@@ -17,6 +17,11 @@ body {
   padding: 0;
 }
 
+img {
+  display: block;
+
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -25,6 +30,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--brand-color-iris);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .link {
@@ -72,6 +79,7 @@ body {
 .contact-details-list {
   font-style: normal;
   display: flex;
+  justify-content: flex-end;
   margin-right: 156px;
   gap: 40px;
   letter-spacing: 0.32px;
@@ -129,6 +137,7 @@ body {
   color: var(--brand-color-white);
   padding: 16px 32px;
   margin-top: 48px;
+  
 }
 
 .btn-order:hover {
@@ -197,9 +206,10 @@ body {
 }
 
 .last-section {
-  padding: 100px 0;
-  background-color: var(--brand-color-navyblue);
-  margin-top: 0;
+background-color: var(--brand-color-navyblue);
+padding: 100px 0;
+
+
 }
 
 .last-section-text {
@@ -230,29 +240,29 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+ 
 }
 
 .main-container-header {
 
   border-bottom: 1px solid #e7e9fc;
+
+  
+
 }
 
 .container-header {
- 
-  display: flex;
 
-  align-items: baseline;
-  justify-content: space-between;
+    
 }
 
 .nav-menu {
-  display: flex;
-  align-items: baseline;
-  justify-items: flex-start;
+
+
+
 }
 .main-menu {
-  display: flex;
-  gap: 40px;
+ 
   
 }
 .container-footer {
@@ -267,10 +277,6 @@ margin-right: 76px;
 
 }
 
-.webstudio-footer-logo {
-  margin: 100px 1169px 188px 156px;
-}
-
 
 .container-text-block {
   display: flex;
@@ -280,6 +286,7 @@ margin-right: 76px;
   padding:120px 0;
 
 }
+
 
 .features-list {
   gap: 24px;
@@ -311,9 +318,7 @@ margin-right: 76px;
 .container-images-list {
   display: flex;
   gap: 24px;
-    /* margin-top: 72px; */
-  /* margin-bottom: 120px; */  
-  }
+   }
 
   .box-image {
   width: calc((100%-48px)/3;
@@ -427,11 +432,5 @@ margin-right: 76px;
 
  padding: 32px 0;
 
-  /* display: flex; */
-  
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: flex-start; */
-  /* align-self: stretch; */
 }
 
