@@ -114,7 +114,6 @@ img {
   display: flex;
   align-self: center;
 }
-
 .btn-order {
   display: block;
   min-width: 169px;
@@ -237,7 +236,7 @@ img {
 
 .nav-menu {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .main-menu {
   display: flex;
@@ -254,6 +253,7 @@ img {
 
 .container-text-block {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .section-features {
@@ -263,7 +263,6 @@ img {
 .features-list {
   display: flex;
   gap: 24px;
-
   justify-content: flex-start;
 }
 
@@ -319,7 +318,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 70px;
+  margin-bottom: 72px;
 }
 
 .grid-list {
