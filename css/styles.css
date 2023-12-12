@@ -235,12 +235,18 @@ img {
 }
 
 .container-header {
+  display: flex;
 }
 
 .nav-menu {
+  display: flex;
+  align-items: center;
 }
 .main-menu {
+  display: flex;
+  gap: 40px;
 }
+
 .container-footer {
   margin: 100px 1020px 100px 156px;
 }
