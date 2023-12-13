@@ -41,6 +41,7 @@ img {
 }
 
 .link-list {
+  display: inline-block;
   padding: 24px 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -235,6 +236,7 @@ img {
 .container-header {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .nav-menu {
