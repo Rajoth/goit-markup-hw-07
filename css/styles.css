@@ -86,7 +86,6 @@ img {
   font-style: normal;
   display: flex;
   justify-content: flex-end;
-  margin-right: 156px;
   gap: 40px;
   letter-spacing: 0.32px;
   list-style-type: none;
@@ -168,7 +167,6 @@ img {
   font-weight: 400;
   letter-spacing: 0.02em;
   line-height: 1.5;
-  margin-bottom: 8px;
 }
 
 .section-team {
@@ -242,7 +240,7 @@ img {
 
 .container-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
