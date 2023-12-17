@@ -108,6 +108,10 @@ img {
   flex-direction: column;
   justify-content: center;
   background-color: var(--brand-color-navyblue);
+  background-image: url(/images/people-office.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
 }
 
 .text-block {
@@ -352,4 +356,45 @@ img {
 
 h2 > .title-article {
   margin-bottom: 8px;
+}
+
+.box-feature > svg {
+  width: 64px;
+  height: auto;
+}
+
+li > svg {
+  width: 16px;
+  height: auto;
+}
+
+.icons-socialmedia-team {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+#icon-social-instagram-2,
+#icon-social-twitter-1,
+#icon-social-facebook-1,
+#icon-social-linkedin-1 {
+  height: 16px;
+  width: 16px;
+  text-align: center;
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-linkedin,
+.icon-facebook {
+  display: flex;
+  justify-content: center;
+  background-color: var(--brand-color-iris);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
