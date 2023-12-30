@@ -109,7 +109,7 @@ img {
   flex-direction: column;
   justify-content: center;
   background-color: var(--brand-color-navyblue);
-  background-image: url("/images/people-office.jpg");
+  background-image: url("./images/people-office.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
