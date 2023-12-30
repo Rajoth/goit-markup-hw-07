@@ -251,7 +251,8 @@ img {
   color: var(--brand-color-light-slate);
 }
 
-.customer-link:hover .customer-link:focus {
+.customer-link:hover,
+.customer-link:focus {
   border-color: var(--brand-color-ocean);
   color: var(--brand-color-ocean);
 }
@@ -506,18 +507,12 @@ h2 > .title-article {
   margin-right: 16px;
 }
 
-.icon-instagram,
-.icon-twitter,
-.icon-linkedin,
-.icon-facebook {
+.object-social-icon {
   width: 40px;
   height: 40px;
 }
 
-.footer-icon-instagram,
-.footer-icon-twitter,
-.footer-icon-facebook,
-.footer-icon-linkedin {
+.footer-object-social-icon {
   width: 40px;
   height: 40px;
   gap: 16px;
