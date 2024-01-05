@@ -540,7 +540,8 @@ img {
   transform: translateY(-100%);
 }
 
-.link-card:hover .description-transition-card {
+.link-card:hover .description-transition-card,
+.link-card:focus .description-transition-card {
   transform: translateY(0%);
   transition: 250ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
