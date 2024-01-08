@@ -259,10 +259,9 @@ img {
 .customers-list {
   display: flex;
   gap: 24px;
-
   list-style: none;
   justify-content: space-between;
-  margin-bottom: 120px;
+  
 }
 
 .customer-item {
