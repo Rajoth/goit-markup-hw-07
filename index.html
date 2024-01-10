@@ -445,11 +445,60 @@
             </li>
           </ul>
         </div>
+        <div class="container-footer-form">
+        <form>
+          <label class="footer-form-title"> Subscribe</label><br/>
+          <div class="box-footer-input-form">
+          <input class="footer-input-form" type="email" placeholder="E-mail" name="email">
+            <button class="btn-submit-footer" type="submit">Subscribe
+              <svg width="24" height="24">
+                <use href="./images/icons.svg#icon-Frame-3"
+              </svg>
+            </button>
+          </input>
+        </div> 
+        </form>
+        </div>
       </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <form name="order-form" autocomplete="off">
+          <h2 class="description-modal-window">Leave your contacts and we will call you back</h2>
+          <label class="fieldname-modal fieldname-text-color">
+            Name
+            <div class="input-container">
+            <svg class="modal-window-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-Frame-1"></use>
+            </svg>
+            <input class="input-textfield-modal" type="text" name="name">
+          </div></label>
+
+          <label class="fieldname-modal fieldname-text-color">
+            Phone
+            <div class="input-container">
+            <svg class="modal-window-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+            <input class="input-textfield-modal" type="tel" name="phone">
+          </div></label>
+          <label class="fieldname-modal fieldname-text-color">
+            Email
+            <div class="input-container">
+            <svg class="modal-window-icon" width="18" height="18">
+              <use href="./images/icons.svg#icon-email-black"></use>
+            </svg>
+            <input class="input-textfield-modal" type="email" name="email">
+          </div></label>
+          <label class="fieldname-modal fieldname-text-color">
+            Comment
+            <div class="input-container">
+            <textarea class="input-textfield-modal textfield-feedback-modal placeholder-textfield-feedback" name="comment" placeholder="Text input" rows="4"></textarea>
+            <input type="checkbox"><label class="approval-description" for="approval-field-modal">I accept the terms and conditions of the <a class="privacy-policy-link" href="">Privacy Policy</a></label>
+            <button class="btn-submit-modal" type="submit">Send</button>
+            </div></label>
+          </form>
         <button type="button" class="close-btn" data-modal-close>
           <svg class="icon-close-modal-window" width="8" height="8">
             <use href="./images/icons.svg#icon-btn-close-black"></use>
