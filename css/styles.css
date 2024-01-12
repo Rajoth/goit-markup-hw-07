@@ -655,18 +655,18 @@ h2 > .title-article {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0,02em;  
+  letter-spacing: 0.02em;  
   color: var(--brand-color-white);
   
     
 }
 
-.footer-form-field {
+.footer-form {
   display: flex;
   
 }
 
-.footer-form-item {
+.footer-form-label {
 
 }
 
@@ -689,8 +689,6 @@ h2 > .title-article {
 
 .footer-input-form::placeholder {
   color: #FFF;
-
-
 }
 
 .btn-submit-footer {
