@@ -878,8 +878,8 @@ h2 > .title-article {
   fill: transparent;
 }
 
-.input-checkbox-modal {
-}
+/* .input-checkbox-modal {
+} */
 
 .input-checkbox-modal:checked {
   background-color: var(--brand-color-ocean);
