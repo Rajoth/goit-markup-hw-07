@@ -66,14 +66,12 @@ img {
 }
 
 .link-list:focus::after,
-.link-list:active::after{
+.link-list:active::after {
   opacity: 1;
 }
 
-
 .link-active {
   color: var(--brand-color-ocean);
-
 }
 
 .link-active::after {
@@ -87,7 +85,6 @@ img {
   bottom: -1px;
   left: 0;
   opacity: 1;
-  
 }
 
 .header-logo {
@@ -127,7 +124,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0, 02em;
   color: var(--brand-color-slate);
-  transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-item:hover,
@@ -261,7 +258,6 @@ img {
   gap: 24px;
   list-style: none;
   justify-content: space-between;
-  
 }
 
 .customer-item {
@@ -288,7 +284,8 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--brand-color-light-slate);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customer-link:hover,
@@ -322,7 +319,6 @@ img {
 .container-footer-icons {
   display: inline-block;
   margin-right: 80px;
-  ;
 }
 .footer-socials-title {
   font-weight: 500;
@@ -353,8 +349,11 @@ img {
   padding: 12px 24px;
   border: 1px solid var(--brand-color-buttonsborder);
   border-radius: 4px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .btn-filter:hover,
 .btn-filter:focus {
@@ -510,7 +509,6 @@ img {
   overflow: hidden;
 }
 
-
 .transition-project-card:hover::after {
   transform: translateY(-100%);
 }
@@ -528,9 +526,8 @@ img {
   height: 100%;
   width: 100%;
   transform: translateY(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);   
-
- }
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .description-transition-card::after {
   content: "";
@@ -548,8 +545,7 @@ img {
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-card {
-transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-card:hover,
@@ -592,14 +588,13 @@ h2 > .title-article {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
 }
 
 .socialmedia-link:hover,
 .socialmedia-link:focus {
-  background-color: var(--brand-color-ocean);  
+  background-color: var(--brand-color-ocean);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
 
 .footer-icon-socialmedia {
   fill: var(--brand-color-cloud);
@@ -613,13 +608,12 @@ h2 > .title-article {
   margin-top: 8px;
   margin-left: 16px;
   margin-right: 16px;
-  
 }
 
 .object-social-icon {
   width: 40px;
   height: 40px;
-  }
+}
 
 .footer-object-social-icon {
   width: 40px;
@@ -647,7 +641,6 @@ h2 > .title-article {
 
 .container-footer-form {
   display: inline-block;
-
 }
 
 .footer-form-title {
@@ -655,42 +648,35 @@ h2 > .title-article {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;  
+  letter-spacing: 0.02em;
   color: var(--brand-color-white);
-  
-    
 }
 
 .footer-form {
   display: flex;
   gap: 24px;
-
-  
 }
 
-.footer-form-label {
+/* .footer-form-label {
 
-}
+} */
 
 .footer-input-form {
-  
   width: 264px;
-  height:40px;
-  border: 1px solid var(--WHITE, #FFF);
+  height: 40px;
+  border: 1px solid var(--WHITE, #fff);
   background-color: transparent;
   font-size: 12px;
   line-height: 1.5;
-  letter-spacing: 0,04em;
+  letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--brand-color-white);
-  
-  
 }
 
 .footer-input-form::placeholder {
-  color: #FFF;
+  color: #fff;
 }
 
 .btn-submit-footer {
@@ -709,9 +695,7 @@ h2 > .title-article {
   background-color: var(--brand-color-iris);
   border: none;
   border-radius: 4px;
- 
 }
-
 
 .btn-submit-footer:hover,
 .btn-submit-footer:focus {
@@ -723,9 +707,6 @@ h2 > .title-article {
 
 .footer-form-icon {
   margin-left: 16px;
-
-  
-
 }
 
 /* modal-window */
@@ -736,16 +717,15 @@ h2 > .title-article {
   width: 100%;
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);  
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
-
   padding-top: 72px;
   padding-bottom: 24px;
   padding-left: 24px;
   padding-right: 24px;
-
 
   position: absolute;
   top: 50%;
@@ -758,7 +738,6 @@ h2 > .title-article {
     0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .close-btn {
@@ -774,7 +753,8 @@ h2 > .title-article {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close-btn:hover,
@@ -795,15 +775,13 @@ h2 > .title-article {
 }
 
 .description-modal-window {
-
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.02em;
-color: var(--brand-color-navyblue);
-margin-bottom: 16px;
-
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--brand-color-navyblue);
+  margin-bottom: 16px;
 }
 
 .order-form {
@@ -811,58 +789,51 @@ margin-bottom: 16px;
 }
 
 .fieldname-modal {
-font-size: 12px;
-line-height: 1.17px;
-letter-spacing: 0.04em;
-/* display:block; */
-margin-bottom: 4px;
-
-
+  font-size: 12px;
+  line-height: 1.17px;
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .fieldname-text-color {
- color: var(--brand-color-light-slate);
+  color: var(--brand-color-light-slate);
 }
 
 .input-field-container {
-position: relative;
-
-
+  position: relative;
 }
 
-.placeholder-textfield-feedback{
- color:var(--brand-color-navyblue);
- padding-top: 8px;
+.placeholder-textfield-feedback {
+  color: var(--brand-color-navyblue);
+  padding-top: 8px;
 }
 
-.input-container { 
+.input-container {
   margin-bottom: 8px;
- }
+}
 
 .input-feedback-container {
   margin-bottom: 16px;
-  
 }
 
 .input-textfield-modal {
- width: 100%;
- height: 40px;
- border: 1px solid rgba(46, 47, 66, 0.4);
- border-radius: 4px;
- background-color: transparent;
- padding-left: 38px;
- outline: transparent;
- transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-textfield-modal:focus-within {
-border-color: var(--brand-color-iris);
-
+.input-textfield-modal:focus {
+  border-color: var(--brand-color-iris);
 }
 
 .textfield-feedback-modal {
-  height:120px;
+  height: 120px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -877,23 +848,20 @@ border-color: var(--brand-color-iris);
 }
 
 .textfield-feedback-modal:focus {
-  color: var(--brand-color-iris);
-
+  border-color: var(--brand-color-iris);
 }
 
 .input-checkbox-container {
   margin-bottom: 24px;
- }
-
+}
 
 .approval-description {
- display: block;
- font-size: 12px;
- line-height: 1.17;
- letter-spacing: 0,04em;
- color: var(--brand-color-light-slate);
- margin-bottom: 24px;
-
+  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--brand-color-light-slate);
+  margin-bottom: 24px;
 }
 
 .input-checkbox-icon {
@@ -901,18 +869,22 @@ border-color: var(--brand-color-iris);
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
 }
 
-.input-checkbox-modal:checked {
- background-color: var(--brand-color-ocean);
- border: none;
- fill: var(--brand-color-cloud);
+.input-checkbox-modal {
+}
 
+.input-checkbox-modal:checked {
+  background-color: var(--brand-color-ocean);
+  border: none;
+  fill: var(--brand-color-cloud);
 }
 
 /* .input-checkbox-element {
@@ -923,7 +895,7 @@ border-color: var(--brand-color-iris);
 
 } */
 
-.privacy-policy-link {  
+.privacy-policy-link {
   color: var(--brand-color-iris);
   line-height: 16px;
 }
@@ -939,34 +911,27 @@ border-color: var(--brand-color-iris);
   letter-spacing: 0.04em;
   color: var(--brand-color-white);
   cursor: pointer;
-  background:var(--brand-color-iris);
+  background: var(--brand-color-iris);
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-top: 24px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
- .btn-submit-modal:hover,
- .btn-submit-modal:focus {
+.btn-submit-modal:hover,
+.btn-submit-modal:focus {
   background-color: var(--brand-color-ocean);
   color: var(--brand-color-white);
   transition: 250ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
- .modal-window-icon {
-  position:absolute;
+.modal-window-icon {
+  position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
- }
-
- .modal-window-icon:focus {
-
-  fill: var(--brand-color-iris)
- }
+}
