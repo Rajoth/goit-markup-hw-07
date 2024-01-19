@@ -330,7 +330,7 @@ img {
 .footer-socials {
   display: flex;
   justify-content: center;
-  
+  gap:16px;  
   list-style: none;
 }
 
