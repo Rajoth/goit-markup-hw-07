@@ -90,8 +90,8 @@
       <!-- Przycisk zamknięcia menu mobilnego -->
 
       <div class="js-menu-container">
-        <div class="mobile-menu-close">
-          <button class="menu-toggle js-close-menu">
+        <div class="mobile-menu-close button-container">
+          <button class="menu-toggle js-close-menu btn-close-mobile-menu">
             <svg
               fill="currentColor"
               viewBox="0 0 20 20"
@@ -114,134 +114,69 @@
           <ul class="main-menu main-menu-mobile list">
             <li>
               <a
-                class="link-list link-list-mobile link link-active"
+                class="link-list-mobile link link-active"
                 href="./index.html"
                 >Studio</a
               >
             </li>
             <li>
-              <a class="link-list link-list-mobile link" href="./portfolio.html"
+              <a class="link-list-mobile link" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
             <li>
-              <a class="link-list link-list-mobile link" href="">Contacts</a>
+              <a class="link-list-mobile link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="contact-details">
-          <ul class="contact-details-list list">
+          <ul class="contact-details-list-mobile list contact-mobile-list">
             <li>
-              <a class="contact-item link" href="mailto:info@devstudio.com"
+              <a class="contact-item link mobile-contact-email" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="contact-item link" href="tel:+110001111111"
+              <a class="contact-item link mobile-contact-phone" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <div class="container-footer-icons container-mobile-icons">
+          <ul class="footer-socials mobile-menu-socials">
+            <li class="footer-object-social-icon mobile-social-icon">
+              <a class="socialmedia-footer-link" href="">
+                <svg class="footer-icon-socialmedia" width="24" height="24">
+                  <use href="./images/icons.svg#icon-social-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-object-social-icon mobile-social-icon">
+              <a class="socialmedia-footer-link" href="">
+                <svg class="footer-icon-socialmedia" width="24" height="24">
+                  <use href="./images/icons.svg#icon-social-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-object-social-icon mobile-social-icon">
+              <a class="socialmedia-footer-link" href="">
+                <svg class="footer-icon-socialmedia" width="24" height="24">
+                  <use href="./images/icons.svg#icon-social-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-object-social-icon mobile-social-icon">
+              <a class="socialmedia-footer-link" href="">
+                <svg class="footer-icon-socialmedia" width="24" height="24">
+                  <use href="./images/icons.svg#icon-social-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
-
-    <!-- odzielne menu poza header, które powinno pojawić się po akcji hamburger-button -->
-
-    <!-- Przycisk zamknięcia menu mobilnego -->
-
-    <!-- <div class="side-menu-mobile js-mobile-menu-is-open">
-      <div class="mobile-menu-close button-container">
-        <button type="button" class="js-close-menu btn-close-mobile-menu">
-          <svg
-            class="close-button-item"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-      </div> -->
-
-    <!-- menu mobilne -->
-
-    <!-- <nav class="mobile-nav-menu">
-        <ul class="main-menu main-menu-mobile list">
-          <li>
-            <a
-              class="link-list link-list-mobile link link-active"
-              href="./index.html"
-              >Studio</a
-            >
-          </li>
-          <li>
-            <a class="link-list link-list-mobile link" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a class="link-list link-list-mobile link" href="">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="contact-details contact-details-mobile">
-        <ul class="contact-details-list contact-mobile-list list">
-          <li>
-            <a
-              class="contact-item mobile-contact-phone link"
-              href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-          <li>
-            <a
-              class="contact-item mobile-contact-email link"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-        </ul>
-      </address>
-      <div class="container-footer-icons container-mobile-icons">
-        <ul class="footer-socials mobile-menu-socials">
-          <li class="footer-object-social-icon mobile-social-icon">
-            <a class="socialmedia-footer-link" href="">
-              <svg class="footer-icon-socialmedia" width="24" height="24">
-                <use href="./images/icons.svg#icon-social-instagram-2"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-object-social-icon mobile-social-icon">
-            <a class="socialmedia-footer-link" href="">
-              <svg class="footer-icon-socialmedia" width="24" height="24">
-                <use href="./images/icons.svg#icon-social-twitter-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-object-social-icon mobile-social-icon">
-            <a class="socialmedia-footer-link" href="">
-              <svg class="footer-icon-socialmedia" width="24" height="24">
-                <use href="./images/icons.svg#icon-social-facebook-1"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="footer-object-social-icon mobile-social-icon">
-            <a class="socialmedia-footer-link" href="">
-              <svg class="footer-icon-socialmedia" width="24" height="24">
-                <use href="./images/icons.svg#icon-social-linkedin-1"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div> -->
 
     <main>
       <!-- SEKCJA 1 ORDER SERVICE      -->
