@@ -16,7 +16,6 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
     <!-- HEADER -->
 
@@ -60,12 +59,8 @@
 
       <div class="mobile-menu-container">
         <a class="mobile-logo logo link" href="./index.html"
-          >Web<span class="header-logo">Studio</span></a
-        >
-
-        <!-- przycisk menu mobilnego typu hamburger -->
-
-        <button
+          >Web<span class="header-logo">Studio</span></a>
+          <button
           type="button"
           class="menu-toggle hamburger-menu-btn js-open-menu"
           aria-expanded="false"
@@ -90,10 +85,10 @@
       <!-- Przycisk zamknięcia menu mobilnego -->
 
       <div class="js-menu-container">
-        <div class="mobile-menu-close button-container">
+        <div class="mobile-menu-close close-btn button-container">
           <button class="menu-toggle js-close-menu btn-close-mobile-menu">
             <svg
-              fill="currentColor"
+              fill=""
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -114,59 +109,60 @@
           <ul class="main-menu main-menu-mobile list">
             <li>
               <a
-                class="link-list-mobile link link-active"
+                class="link-list link-list-mobile link link-active-mobile"
                 href="./index.html"
                 >Studio</a
               >
             </li>
             <li>
-              <a class="link-list-mobile link" href="./portfolio.html"
+              <a class="link-list link-list-mobile link"
+                href="./index.html"" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
             <li>
-              <a class="link-list-mobile link" href="">Contacts</a>
+              <a class="link-list link-list-mobile link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="contact-details">
           <ul class="contact-details-list-mobile list contact-mobile-list">
             <li>
-              <a class="contact-item link mobile-contact-email" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+              <a class="contact-item link mobile-contact-phone" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
             <li>
-              <a class="contact-item link mobile-contact-phone" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
+              <a
+                class="contact-item link mobile-contact-email"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
               >
             </li>
           </ul>
         </address>
-        <div class="container-footer-icons container-mobile-icons">
-          <ul class="footer-socials mobile-menu-socials">
-            <li class="footer-object-social-icon mobile-social-icon">
+        <div class="container-mobile-icons">
+          <ul class="mobile-menu-socials">
+            <li class="mobile-social-icon">
               <a class="socialmedia-footer-link" href="">
                 <svg class="footer-icon-socialmedia" width="24" height="24">
                   <use href="./images/icons.svg#icon-social-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-object-social-icon mobile-social-icon">
+            <li class="mobile-social-icon">
               <a class="socialmedia-footer-link" href="">
                 <svg class="footer-icon-socialmedia" width="24" height="24">
                   <use href="./images/icons.svg#icon-social-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-object-social-icon mobile-social-icon">
+            <li class="mobile-social-icon">
               <a class="socialmedia-footer-link" href="">
                 <svg class="footer-icon-socialmedia" width="24" height="24">
                   <use href="./images/icons.svg#icon-social-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-object-social-icon mobile-social-icon">
+            <li class="mobile-social-icon">
               <a class="socialmedia-footer-link" href="">
                 <svg class="footer-icon-socialmedia" width="24" height="24">
                   <use href="./images/icons.svg#icon-social-linkedin-1"></use>
@@ -258,15 +254,18 @@
               <img
                 class="photo-team"
                 src="./images/image1.jpg"
+                srcset="./images/image1@2x.jpg"
                 alt="computer"
                 width="360"
                 height="300"
               />
+              
             </li>
             <li class="box-image">
               <img
                 class="photo-team"
                 src="./images/image2.jpg"
+                srcset="./images/image2@2x.jpg"
                 alt="screenshots from smartphone"
                 width="360"
                 height="300"
@@ -276,6 +275,7 @@
               <img
                 class="photo-team"
                 src="./images/image3.jpg"
+                srcset="./images/image3@2x.jpg"
                 alt="smartphone"
                 width="360"
                 height="300"
@@ -294,6 +294,7 @@
             <li class="team-item">
               <img
                 src="./images/mark-guerrero.jpg"
+                srcset="./images/mark-guerrero@2x.jpg"
                 alt="smiling man"
                 width="264"
                 height="260"
@@ -341,6 +342,7 @@
             <li class="team-item">
               <img
                 src="./images/tom-ford.jpg"
+                srcset="./images/tom-ford@2x.jpg"
                 alt="smiling young man"
                 width="264"
                 height="260"
@@ -391,6 +393,7 @@
             <li class="team-item">
               <img
                 src="./images/camila-garcia.jpg"
+                srcset="./images/camila-garcia@2x.jpg"
                 alt="smiling young woman"
                 width="264"
                 height="260"
@@ -442,6 +445,7 @@
             <li class="team-item">
               <img
                 src="./images/daniel-wilson.jpg"
+                srcset="./images/daniel-wilson@2x.jpg"
                 alt="smiling young man"
                 width="264"
                 height="260"
@@ -649,9 +653,6 @@
               </svg>
             </div>
           </div>
-
-          <!-- Kontener pola tekstowego 2 -->
-
           <div class="input-container">
             <label class="fieldname-modal fieldname-text-color" for="user-phone"
               >Phone</label
@@ -669,9 +670,6 @@
               </svg>
             </div>
           </div>
-
-          <!-- Kontener pola tekstowego 3 -->
-
           <div class="input-container">
             <label class="fieldname-modal fieldname-text-color" for="user-email"
               >Email</label
@@ -689,9 +687,6 @@
               </svg>
             </div>
           </div>
-
-          <!-- Kontener pola tekstowego 4 - feedback -->
-
           <div class="input-feedback-container">
             <label
               class="fieldname-modal fieldname-text-color"
@@ -706,9 +701,6 @@
               required
             ></textarea>
           </div>
-
-          <!-- Kontener pola wyboru z label -->
-
           <div class="input-checkbox-container">
             <input
               class="input-checkbox-modal visually-hidden"
